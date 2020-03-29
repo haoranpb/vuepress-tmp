@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "description": "<%= description %>",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "vuepress": "^1.4.0"
+  }
+}
