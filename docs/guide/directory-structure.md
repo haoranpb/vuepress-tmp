@@ -2,9 +2,7 @@
 
 VuePress follows the principle of **"Convention is better than configuration"**, the recommended document structure is as follows:
 
-<!-- textlint-disable terminology -->
-
-::: vue
+```
 .
 ├── docs
 │   ├── .vuepress _(**Optional**)_
@@ -20,16 +18,14 @@ VuePress follows the principle of **"Convention is better than configuration"**,
 │   │   │   └── ssr.html
 │   │   ├── `config.js` _(**Optional**)_
 │   │   └── `enhanceApp.js` _(**Optional**)_
-│   │ 
+│   │
 │   ├── README.md
 │   ├── guide
 │   │   └── README.md
 │   └── config.md
-│ 
+│
 └── package.json
-:::
-
-<!-- textlint-enable -->
+```
 
 ::: warning Note
 Please note the capitalization of the directory name.

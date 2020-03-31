@@ -17,6 +17,10 @@ module.exports = {
         link: '/guide/',
       },
       {
+        text: 'Config',
+        link: '/config/',
+      },
+      {
         text: 'VuePress',
         link: 'https://vuepress.vuejs.org'
       },
@@ -25,6 +29,20 @@ module.exports = {
         link: 'https://github.com/ludanxer/vuepress-tmp'
       }
     ],
+    sidebar: {
+      '/guide/': [{
+        title: 'Guide',
+        path: '/guide/',
+        collapsable: false,
+        sidebarDepth: 2,
+        children: [
+          '',
+          'basic-cofig',
+          'directory-structure',
+          'i18n'
+        ]
+      }]
+    },
   },
   // Reference: https://vuepress.vuejs.org/plugin/
   plugins: [
