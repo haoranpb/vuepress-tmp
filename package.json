@@ -1,6 +1,5 @@
 {
   "version": "1.0.0",
-  "description": "<%= description %>",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
@@ -8,6 +7,8 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.4.0",
+    "@vuepress/plugin-medium-zoom": "^1.4.0",
     "vuepress": "^1.4.0"
   }
 }
