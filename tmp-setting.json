@@ -1,0 +1,10 @@
+{
+  "version": ">0.2.5",
+  "glob": {
+    "pattern": "**",
+    "ignore": [
+      "tmp-setting.json",
+      "**/*.png"
+    ]
+  }
+}
