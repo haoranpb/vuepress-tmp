@@ -1,10 +1,17 @@
 {
-  "version": ">0.2.5",
+  "version": ">0.3.4",
   "glob": {
     "pattern": "**",
     "ignore": [
       "tmp-setting.json",
       "**/*.png"
     ]
-  }
+  },
+  "question": [
+    {
+      "name": "ga",
+      "message": "Google analytics tracking id",
+      "default": "UA-00000000-0"
+    }
+  ]
 }
